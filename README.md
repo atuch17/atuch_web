@@ -1,2 +1,2 @@
 # atuch-web
-https://atuch17.github.io/atuch-web/
+Todo en uno: pagina web, curriculum, experiencia...

@@ -1,0 +1,189 @@
+.identifyer1{	
+	font-size:1em;	
+	line-height: 1.5;
+    letter-spacing: 1px;
+	margin:0;
+	color:#000;		
+}
+.identifyer2{
+	font-size:.8em;	
+	line-height: 1.5;
+    letter-spacing: 1px;
+	margin:0 0 2em 0;
+	color:#FF0000;
+	font-weight: bolder;	
+}
+
+.area-foto{
+	height: auto;
+    width: auto;
+}
+
+.img-perfil{
+	max-height: 100%;
+    width: 200px;
+}
+
+.barra_1{
+	position: relative;
+	background:#E7E8EC;
+	height: .6em;
+	width: 100%;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+	margin-top:5px;
+	font-size:1em;
+}
+.barra_2{
+	position: absolute;
+	background:#919EFF;
+	display: block;
+	height: .6em;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+    -moz-border-radius: 2px;
+	font-size:1em;	
+}
+.not_my_pic:hover .barra_2{animation: moverBarra 1.5s linear .3s forwards;}
+.barra_num{
+	font-size:.5em;
+	position: absolute;
+	right:0;
+	border-radius: 4px;
+	background:#000;
+	top:1.8em;
+}
+
+.barra_num span{
+	color:#fff;
+	font-size: 1.44em;
+	margin:0 4px;	
+	z-index:5;	
+}
+
+
+@keyframes moverBarra {
+	from {
+		opacity: 0;
+		width:0;
+		transform: translateX(0px);
+	}
+
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+
+.barra_min{
+	position: relative;
+	left:0;
+	color:#bdbdbd;
+	font-size: 1.12em;
+	top:.64em;
+	padding:0;
+	margin: .1em 0em;
+	z-index:-4;
+}
+
+.barra_max{
+	position: absolute;
+	right:0;
+	color:#bdbdbd;
+	font-size: 1em;
+	top:.64em;
+	padding:0;
+	margin:.2em 0em;
+	z-index:-4;
+}
+
+/*.not_my_pic{	
+	display:inline-block;
+	width:100%;	
+	font-size:16px;
+}
+
+.logros{
+	text-align:center;
+	margin-bottom:2em;
+	font-size:2vw;
+}
+
+.mis_logros{
+	text-align:center;
+	top:-.3em;
+	color:#657929;
+	display:inline-block;
+	position:relative;
+	margin:0;
+	padding:0 1.6em;
+	font-size:2rem;
+	word-spacing:0.4em;
+}
+
+.cursos_topic{
+	font-size:1.25em;
+	font-family:"Open Sans", sans-serif;
+	margin:0 65px;
+	text-transform: uppercase;
+	color:#657929;
+	letter-spacing: .4px;	
+}
+
+.cursos {
+	position: relative;
+	margin: 1em 6em 4em 6em;
+	font-size:16px;
+}
+
+.cursos a{	
+	left:0;
+	width:100%;
+	font-size:1em;
+	font-family:"Open Sans", sans-serif;
+	color:#000;
+}
+
+
+.my_pic{
+	width:100%;
+	display:inline-block;
+	position:relative;	
+	font-size:19px;
+}
+
+.my_pic_1{
+	display:inline-block;
+	height:20vw;
+	position:relative;
+	left:0;
+	text-align:center;	
+	margin:2em;
+	padding:0;
+	max-width:15em;
+}
+
+.my_pic_1 img{
+	height:20vw;
+	max-width:14em;
+	margin:0;	
+}
+
+
+.my_pic_2{
+	display:inline-block;
+	margin:3em 1em;
+	position:absolute;	
+}
+
+.my_pic_2 p{
+	color:#7a7a7a;
+	font-size:2vw;
+	text-align:left;
+	margin:0 4em 0 0;
+	min-width:7.5em;
+}
+
+*/

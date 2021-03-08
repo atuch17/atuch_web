@@ -1,0 +1,73 @@
+.programming {			
+	text-align:center;
+	width:100%;
+}
+.img { 
+	height:auto;
+	width:25em;
+	margin:.6em 0em .6em 0em;
+	padding-left:0px;
+	padding-right:0px;
+}
+.img img{
+	max-height:100%;
+	width:100px;
+}
+
+/*.img img:hover{
+	-webkit-transform:scale(0.8);	
+	transform:scale(1.2);	
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all .5s;
+}*/
+
+/* IMG */
+
+.overlay h3{
+	color:#fff;
+	text-transform:uppercase;
+	font:700 16px/18px Montserrat,sans-serif;
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.overlay h1{
+	color:#C0C0C0;
+	font:100 16px/18px Montserrat,sans-serif;
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin-top:38px;
+	font-size:.7em;
+}
+
+.overlay{
+	margin:0 auto;
+	position:absolute;
+	z-index:3;
+	background:rgba(0,0,0,.85);
+	top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+	opacity: 0;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.effect_img:hover .overlay{
+	opacity:1;
+	transform:scale(1.2);
+}
+.effect_img:hover img{
+	-webkit-transform:scale(0.8);	
+	transform:scale(1.2);	
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all .5s;
+}

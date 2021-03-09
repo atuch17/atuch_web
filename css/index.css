@@ -176,7 +176,7 @@ footer img{
 	margin-left: 3em;
 	width:10em;
 }
-@media(max-width: 700px) {
+@media(max-width: 770px) {
 	#atuch img{
 		margin-top:12vh;
 		margin-left: 0;
@@ -283,4 +283,16 @@ footer img{
 .carousel-caption p{
 	list-style: none;
 	color:#000;
+}
+
+@media (prefers-color-scheme: light) {
+  html, body {
+  background: #fff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+	background: #fff;
+  }
 }

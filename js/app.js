@@ -72,14 +72,14 @@ particlesJS(
 		"detect_on": "canvas",
 		"events": {
 		  "onhover": {
-			"enable": true,
-			"mode": "repulse"
+			"enable": false,
+			//"mode": "repulse"
 		  },
 		  "onclick": {
-			"enable": true,
-			"mode": "push"
+			"enable": false,
+			//"mode": "push"
 		  },
-		  "resize": true
+		  "resize": false
 		},
 		"modes": {
 		  "grab": {

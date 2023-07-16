@@ -14,15 +14,6 @@
 	width:100px;
 }
 
-/*.img img:hover{
-	-webkit-transform:scale(0.8);	
-	transform:scale(1.2);	
-	-webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all .5s;
-}*/
-
 /* IMG */
 
 .overlay h3{
@@ -41,6 +32,9 @@
 	width:100%;
 	margin-top:38px;
 	font-size:.7em;
+	white-space: nowrap; /* Evita el salto de línea */
+	overflow: hidden; /* Oculta el exceso de texto */
+	text-overflow: ellipsis; /* Agrega puntos suspensivos para texto truncado */
 }
 
 .overlay{
@@ -57,17 +51,8 @@
     -moz-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+	white-space: nowrap; /* Evita el salto de línea */
+	overflow: hidden; /* Oculta el exceso de texto */
+	text-overflow: ellipsis; /* Agrega puntos suspensivos para texto truncado */
 }
 
-.effect_img:hover .overlay{
-	opacity:1;
-	transform:scale(1.2);
-}
-.effect_img:hover img{
-	-webkit-transform:scale(0.8);	
-	transform:scale(1.2);	
-	-webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all .5s;
-}
